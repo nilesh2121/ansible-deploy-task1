@@ -1,0 +1,16 @@
+---
+- name: install apache
+  become: yes
+  hosts: webserver
+  tasks:
+    - name : install apache
+      ansible.builtin.apt:
+        name: apache2
+        update_cache: yes
+        state: present
+
+
+- hosts: dbserver
+  roles:
+    - role: geerlingguy.mysql
+      become: yes
