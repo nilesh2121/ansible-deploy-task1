@@ -10,7 +10,7 @@
         state: present
 
 
-- hosts: dbserver
-  roles:
-    - role: geerlingguy.mysql
-      become: yes
+# - hosts: dbserver
+#   roles:
+#     - role: geerlingguy.mysql
+#       become: yes
