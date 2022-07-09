@@ -1,4 +1,4 @@
-[ webserver ]
+[webserver]
 10.0.0.173
-[ dbserver ]
+[dbserver]
 10.0.1.234
