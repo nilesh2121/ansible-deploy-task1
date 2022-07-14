@@ -10,8 +10,8 @@
         state: present
 
 
-    - name: install DB
-      hosts: dbserver
-      roles:
-        - role: geerlingguy.mysql
-          become: yes
+    # - name: install DB
+    #   hosts: dbserver
+    #   roles:
+    #     - role: geerlingguy.mysql
+    #       become: yes
