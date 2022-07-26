@@ -6,7 +6,7 @@
    - username: tomcat
    - home_dir: /opt/tomcat
    - default_shell: /bin/false
-   - tomcat_version: 9.0.62
+   - tomcat_version: 9.0.65
    - tomcat_latest: /opt/tomcat/latest
    - tomcat_bin_directory: /opt/tomcat/latest/bin/
    - tomcat_service_location: /etc/systemd/system/tomcat.service
